@@ -60,6 +60,7 @@ body{
 
 .header .material-symbols-outlined {
   color: #616161;
+  padding: 8px;
   font-size: 22px;
   font-weight: 800;
 }
@@ -67,7 +68,7 @@ body{
 .header .material-symbols-outlined:hover {
   cursor: pointer;
   background: #dcdcdc;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .header-menu-item button {
@@ -150,7 +151,6 @@ body{
       outline: none;
   }
 
-
 .main-button {
     margin-top: 30px;
   }
@@ -178,6 +178,7 @@ body{
     background-color: #f2f2f2;
     width: 100%;
     height: 100px;
+    box-sizing: border-box;
     position: fixed;
     bottom: 0;;
   }
@@ -193,7 +194,7 @@ body{
   .footer-menu {
     height: 50%;
     display: flex;
-    padding: 0px 15px;
+    padding: 0px 20px;
     justify-content: space-between;
     width: 100%;
     align-items: center;
@@ -211,7 +212,7 @@ body{
   
   .footer-menu-item {
     float: left;
-    margin: 0px 20px;
+    margin: 0px 15px;
   }
   
   .footer-menu-item a:link,
