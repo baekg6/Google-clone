@@ -1,8 +1,8 @@
 /*
     작성자 : 백지
-    설명 : 구글 클론 웹페이지의 html 파일
+    설명 : 구글 클론 웹페이지의 CSS 파일
     생성 날짜 : 22. 08. 10. NEW
-    수정 날짜 : 22. 08. 11. by 백지
+    수정 날짜 : 22. 08. 12. by 백지
 */
 
 @import "reset.css";
@@ -25,7 +25,7 @@ body{
   height: 100%;
   align-items: center;
   box-sizing: border-box;
-  padding: 0px 15px;
+  padding: 0px 10px;
 }
 
 .header-menu ul {	
@@ -104,6 +104,7 @@ body{
 
 .search-box {
     width: 580px;
+    max-width: 90%; /*화면 너비 최소화 했을 때, 양쪽 공간*/
     height: 46px;
     margin: auto;
     padding: 0 10px;
@@ -111,6 +112,7 @@ body{
     border: 1px solid #e1e1e1;
     border-radius: 25px;
     display: flex;
+    text-align: center;
     align-items: center;
   }
   
@@ -184,7 +186,7 @@ body{
   }
   
   .footer-country {
-    height: 50%;
+    height: 50px;
     display: flex;
     align-items: center;
     font-size: 15px;
@@ -192,7 +194,7 @@ body{
   }
   
   .footer-menu {
-    height: 50%;
+    height: 50px;
     display: flex;
     padding: 0px 20px;
     justify-content: space-between;
@@ -203,7 +205,7 @@ body{
   }
   
   .footer-menu ul {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     list-style-type: none;
     padding: 0px;
@@ -227,3 +229,28 @@ body{
     text-decoration: underline;
     cursor: pointer;
   }
+
+@media (max-width: 1200px ){
+  .footer-menu {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 500px ){
+
+  .footer {
+    height: 150px;
+  }
+
+  .footer-menu{
+    display:block;
+    text-align: center;
+  }
+
+  .footer-menu ul {
+    height: 50%;
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+  }
+}
