@@ -1,7 +1,8 @@
 # Google clone
-[HTML/CSS] 구글 웹페이지 클론 코딩
 
-> Demo : https://baekg6.github.io/Google-clone/
+* [데모 페이지로 이동 →](https://baekg6.github.io/Google-clone/)
+![스크린샷 2022-09-09 오후 3 24 05](https://user-images.githubusercontent.com/96777064/189285094-3b676f76-dcbc-4873-8dbd-842c0532a1da.png)
+
 
 <br/>
 
